@@ -18,4 +18,9 @@
     <ProjectReference Include="..\NLayer.Service\NLayer.Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
 </Project>
