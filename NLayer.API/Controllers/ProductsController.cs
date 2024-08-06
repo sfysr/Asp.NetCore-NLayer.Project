@@ -16,7 +16,6 @@ namespace NLayer.API.Controllers
 
         public ProductsController(IService<Product> service, IMapper mapper, IProductService productService)
         {
-            _service = service;
             _mapper = mapper;
             _service = productService;
         }
